@@ -3,7 +3,7 @@ body { background: url('../img/pattern.gif'); }
 
 /* BALLS Inverse rotate */
 
-.ball, .ball1 {
+.ball1, .ball2 {
 	background-color: rgba(0,0,0,0);
 	border: 2px solid rgba(0,183,229,0.9);
 	opacity: .9;
@@ -12,7 +12,7 @@ body { background: url('../img/pattern.gif'); }
 	margin: 0 auto;
 }
 
-.ball {
+.ball1 {
 	border-radius: 50px;
 	box-shadow: 0 0 35px #2187e7;
 	width: 50px;
@@ -20,7 +20,7 @@ body { background: url('../img/pattern.gif'); }
 	-webkit-animation:spin .5s infinite linear;
 }
 
-.ball1 {
+.ball2 {
 	border-radius: 30px;
 	box-shadow: 0 0 15px #2187e7;
 	width: 30px;
@@ -41,7 +41,7 @@ body { background: url('../img/pattern.gif'); }
 
 /* CIRCLES Android style */
 
-.circle, .circle1 {
+.circle1, .circle2 {
 	background-color: rgba(0,0,0,0);
 	border: 2px solid rgba(0,183,229,0.9);
 	opacity: .9;
@@ -50,7 +50,7 @@ body { background: url('../img/pattern.gif'); }
 	margin: 0 auto;
 }
 
-.circle {
+.circle1 {
 	border-radius: 50px;
 	box-shadow: 0 0 35px #2187e7;
 	width: 50px;
@@ -58,7 +58,7 @@ body { background: url('../img/pattern.gif'); }
     -webkit-animation: spinPulse 1s infinite linear;
 }
 
-.circle1 {
+.circle2 {
     border-radius: 30px;
     box-shadow: 0 0 15px #2187e7;
     width: 30px;
@@ -92,18 +92,14 @@ body { background: url('../img/pattern.gif'); }
 
 /* ROUNDS Perso */
 
-.rounds2 {
-	margin-top: -158px;
-}
-
-.round, .round1, .round2, .round3 {
+.round1, .round2 {
 	background-color: rgba(0,0,0,0);
 	border: 2px solid rgba(0,183,229,0.9);
 	opacity: .5;
 	margin: 0 auto;
 }
 
-.round {
+.round1 {
 	border-radius: 50px;
 	box-shadow: 0 0 35px #2187e7;
 	box-shadow: inset 0 0 15px #2187e7;
@@ -113,7 +109,7 @@ body { background: url('../img/pattern.gif'); }
 	-webkit-animation:spin 1.2s infinite linear;
 }
 
-.round1 {
+.round2 {
     border-radius: 50px;
     box-shadow: 0 0 35px #2187e7;
 	border-left: 2px solid rgba(0,0,0,0);
